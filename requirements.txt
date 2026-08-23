@@ -1,0 +1,16 @@
+# Steps 2-3 and the notebook (CPU-only)
+pandas>=2.0
+numpy>=1.24
+scikit-learn>=1.3
+xgboost>=2.0
+matplotlib>=3.7
+seaborn>=0.12
+jupyter
+nbformat
+nbconvert
+
+# Step 1 (imputation) -- needs a CUDA GPU. Install separately with the
+# right CUDA wheel for your card, e.g.:
+#   pip install torch --index-url https://download.pytorch.org/whl/cu128
+# See the "GPU setup notes" section in README.md.
+torch
